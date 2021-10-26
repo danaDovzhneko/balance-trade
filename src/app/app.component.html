@@ -1,0 +1,4 @@
+<div class="wrapper">
+  <app-main *ngIf='mainShown'(toggleComponents)='toggleComponents()' [trades]="trades" [wallet]="wallet" (clearAll)="clearAll()"></app-main>
+  <app-chart *ngIf='chartShown'(toggleComponents)='toggleComponents()' [trades]="trades" [wallet]="wallet"></app-chart>
+</div>

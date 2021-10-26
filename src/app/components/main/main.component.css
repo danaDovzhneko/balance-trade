@@ -1,0 +1,112 @@
+.container {
+    padding: 40px 60px;
+    background-color: #B3BFB8;
+    margin: 40px 0px;
+}
+
+h1 {
+    margin: 10px 0px;
+    font-size: 35px;
+}
+
+h3 {
+    margin: 5px 0px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+form {
+    margin-bottom: 40px;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: row;
+    /* margin: 5px 0; */
+}
+
+.form-column {
+    margin: 0px 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px;
+}
+
+.form-group label {
+    color: #F0F7F4;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.form-group input {
+    padding: 5px 8px;
+    background-color: #F0F7F4;
+    border: none;
+    outline: none;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    margin-top: 10px;
+    background-color: #7E8D85;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.total-profit span {
+    font-weight: 700;
+}
+
+.trades {
+    margin: 15px 0px;
+}
+
+.trades li {
+    padding: 8px 12px;
+    background-color: #A2E3C4;
+    margin: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.end-part {
+    font-weight: 700;
+}
+
+.end-part span {
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.start-part {
+    color: #3C493F;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header button {
+    height: 40px;
+    padding: 0px 15px;
+    font-size: 10px;
+    margin-top: 0px;
+}
+
+.invalid-feedback {
+    padding: 10px 15px;
+    margin: 10px 0px;
+    background-color: #3C493F;
+    color: white;
+}

@@ -1,0 +1,35 @@
+.container {
+  padding: 40px 60px;
+  background-color: #B3BFB8;
+  margin: 40px 0px;
+}
+
+.chart {
+  height: 400px;
+  /* width: min(600px, 80%); */
+  width: 700px;
+}
+
+  button {
+  padding: 12px 20px;
+  border: none;
+  margin-top: 10px;
+  background-color: #7E8D85;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.total-profit span {
+  font-weight: 700;
+}
+
+.notrades {
+  margin: 25px 0;
+}
+
+h3 {
+  font-weight: 300;
+}

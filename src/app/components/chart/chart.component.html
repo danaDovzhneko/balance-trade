@@ -1,0 +1,13 @@
+<div class="container" *ngIf="trades | async as trades">
+    <h1>Trades Chart</h1>
+    <ng-container *ngIf=" trades.length > 0; else noTradesRef"> 
+        <div echarts [options]="chartOptions" class="chart"></div>
+        <h3 class="total-profit">Balance: <span>{{(wallet | async)?.balance}}$</span></h3>
+    </ng-container>
+    <ng-template #noTradesRef>
+        <div class="notrades">
+            <h3>Currently there are no trades </h3>
+        </div>
+    </ng-template>
+    <button (click)="openTrades()">Back to Trades</button>
+</div>
